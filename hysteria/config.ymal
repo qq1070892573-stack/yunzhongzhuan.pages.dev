@@ -1,0 +1,24 @@
+listen: :55443
+acme:
+  domains:
+    - 114-41-33-163.nip.io
+  email: 10001@qq.com
+auth:
+  type: password
+  password: WenhuaLi1103
+masquerade:
+  type: proxy
+  proxy:
+    url: https://dldir1.qq.com
+    rewriteHost: true
+  listenHTTP: :80
+  listenHTTPS: :443
+  forceHTTPS: true
+bandwidth:
+  up: 1 gbps
+  down: 1 gbps
+quic:
+  initStreamReceiveWindow: 26843545
+  maxStreamReceiveWindow: 26843545
+  initConnReceiveWindow: 67108864
+  maxConnReceiveWindow: 67108864
