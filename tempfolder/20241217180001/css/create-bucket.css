@@ -1,0 +1,40 @@
+﻿html{
+	background-color: #f2f3f8;
+}
+
+
+.create-bucket-parent{
+	width: 100%;
+	float: left;
+}
+.create-bucket-main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.create-bucket-main-bucket-information{
+	width: 100%;
+	float: left;
+	background-color: #fff;
+	box-shadow: 0 2px 4px #1a22330d;
+	margin: 15px 0 0 0;
+}
+
+
+
+
+@media (max-width: 1240px){
+
+	.create-bucket-main{
+		width: calc(100% - 40px);
+	}
+	.bottom-buttons-main{
+		width: calc(100% - 40px);
+		margin: 0 20px;
+	}
+	.top-page-title-main{
+		width: calc(100% - 40px);
+		margin: 0 20px;
+	}
+
+
+}

@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>桶列表-括彩云对象存储</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/buckets.css" />
+		<link rel="stylesheet" href="plug-in/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="shortcut icon" href="images/favicon.png">
+		<meta name="viewport" content="width=device-width, height=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+	</head>
+	<body>
+
+
+
+		<div class="buckets">
+
+
+
+
+
+			<div class="top-nav">
+
+				<div class="top-nav-more"><i class="fa fa-navicon"></i></div>
+				
+				<div class="top-nav-logo"></div>
+
+				<div class="top-nav-dash"><i class="fa fa-home"></i> 总览</div>
+
+				<div class="user-profile">K</div>
+
+
+			</div>
+
+
+
+
+			<div class="buckets-parent">
+
+				<div class="buckets-nav">
+
+					<div class="buckets-nav-title"><i class="fa fa-cloud-upload"></i><span>对象存储</span></div>
+
+					<div class="buckets-nav-items">
+
+						<div class="buckets-nav-item"><i class="fa fa-dashboard"></i><span>概览</span></div>
+						<div class="buckets-nav-item buckets-nav-item-index"><i class="fa fa-database"></i><span>桶列表</span></div>
+						<div class="buckets-nav-item"><i class="fa fa-pie-chart"></i><span>用量统计</span></div> <!--fa-bar-chart-o-->
+						<div class="buckets-nav-item"><i class="fa fa-gear"></i><span>安全设置</span></div> <!-- fa-toggle-on -->
+
+					</div>
+
+					<div class="buckets-nav-span"><span>使用帮助</span></div>
+
+					<div class="buckets-nav-items">
+
+						<div class="buckets-nav-item"><i class="fa fa-book"></i><span>接口文档</span></div>
+
+					</div>
+
+					<div class="buckets-nav-show-and-hide-button"><i class="fa fa-dedent"></i></div><!-- fa-indent -->
+
+				</div>
+
+
+
+
+				<div class="buckets-main">
+
+					<div class="block-height-20px"></div>
+
+					<div class="h2-title">桶列表</div>
+
+					<div class="block-height-20px"></div>
+
+					<div>
+
+					<div class="input-button-blue create-bucket"><i class="fa fa-plus"></i> 创建桶</div>
+
+					<div class="input-button input-button-reload"><i class="fa fa-rotate-right"></i></div>
+					<div class="input-button input-button-config"><i class="fa fa-cog"></i></div>
+
+					<div class="input-search"><input type="text" placeholder="按桶名称搜索" /></div>
+
+					</div>
+
+					<div class="block-height-20px"></div>
+
+
+					<div class="buckets-main-table-header">
+						<div class="buckets-main-table-header-title">
+							桶名称
+						</div>
+						<div class="buckets-main-table-header-region">
+							区域
+						</div>
+						<div class="buckets-main-table-header-type">
+							默认存储类型
+						</div>
+						<div class="buckets-main-table-header-async"> <!-- 多AZ冗余 开通后TOS将提供同地域多个数据中心的容灾能力，提高数据可用性。 -->
+							冗余类型
+						</div>
+						<div class="buckets-main-table-header-datetime">
+							创建日期
+						</div>
+						<div class="buckets-main-table-header-manager-buttons">
+							操作
+						</div>
+					</div>
+
+
+					<div class="buckets-main-items">
+
+
+						<div class="buckets-main-item">
+							<div class="buckets-main-table-header-title">
+								<span>kgqc</span>
+							</div>
+							<div class="buckets-main-table-header-region">
+								浙江7区
+							</div>
+							<div class="buckets-main-table-header-type">
+								标准存储
+							</div>
+							<div class="buckets-main-table-header-async"> <!-- 多AZ冗余 开通后TOS将提供同地域多个数据中心的容灾能力，提高数据可用性。 -->
+								单AZ
+							</div>
+							<div class="buckets-main-table-header-datetime">
+								2023-09-13 20:00:17
+							</div>
+							<div class="buckets-main-table-header-manager-buttons">
+								<span class="buckets-main-table-header-manager-buttons-delete">删除</span>
+								<!--<span class="buckets-main-table-header-manager-buttons-delete">停用</span>-->
+							</div>
+						</div>
+
+
+
+
+
+					</div>
+
+
+					
+				</div>
+
+
+
+			</div>
+
+
+
+		</div>
+
+
+
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/buckets.js"></script>
+	</body>
+</html>

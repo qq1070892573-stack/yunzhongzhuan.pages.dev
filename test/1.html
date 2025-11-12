@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+	let xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange=function(){
+		if(xmlhttp.readyState==4 && xmlhttp.status==200){
+			// xmlhttp.responseText;
+      document.write(xmlhttp.responseText);
+		}
+	}
+	xmlhttp.open("GET","https://cdnjs.cloudflare.com/cdn-cgi/trace?load=0",true);
+	xmlhttp.send();
+    </script>
+  </body>
+</html>

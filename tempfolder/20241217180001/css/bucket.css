@@ -1,0 +1,313 @@
+﻿.bucket .buckets-main .create-folder{
+	width: unset;
+	padding: 0 15px;
+	color: #42464e;
+	margin: 0 10px 0 0;
+	border: 1px solid #dde2e9;
+	height: 32px;
+	line-height: 32px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.08);
+	transition: .25s ease border,.25s ease background-color;
+}
+.bucket .buckets-main .create-folder:hover{
+	border: 1px solid #387bff;
+	background-color: #fafbfc;
+	transition: .25s ease border,.25s ease background-color;
+}
+
+
+.bucket .buckets-main .create-bucket{
+	margin: 0 10px 0 0;
+	box-shadow: 0 1px 1px rgba(0,0,0,.08);
+}
+
+.buckets-nav-title{
+	line-height: 50px;
+}
+
+.bucket .buckets-nav-title{
+	height: 24px;
+	line-height: 24px;
+}
+.bucket .buckets-nav-title .top-page-title-main-icon-button{
+	margin: 0 8px 0 0;
+}
+
+.buckets-nav-title .h3-title{
+	color: #0c0d0e;
+	font-weight: bold;
+}
+
+
+
+.bucket-files-parent{
+	width: 100%;
+	float: left;
+}
+.bucket-files-main{
+	width: 100%;
+	float: left;
+}
+.bucket-files-headers{
+	width: calc(100% - 2px);
+	height: 42px;
+	line-height: 42px;
+	border: 1px solid #eaedf1;
+	background-color: #f6f8fa;
+	border-radius: 3px 3px 0 0;
+}
+.bucket-files-items{
+	width: calc(100% - 2px);
+	float: left;
+	border-right: 1px solid #eaedf1;
+	border-left: 1px solid #eaedf1;
+	border-bottom: 1px solid #eaedf1;
+	/*border-top: 0px dashed #ffffff00;*/
+}
+.bucket-files-item{
+	width: 100%;
+	float: left;
+	height: 42px;
+	line-height: 42px;
+}
+.bucket-files-item:hover{
+	background-color: #fafbfc;
+}
+.bucket-folders-items{
+	width: calc(100% - 2px);
+	float: left;
+	border-right: 1px solid #eaedf1;
+	border-left: 1px solid #eaedf1;
+}
+.bucket-folders-items .bucket-files-item .bucket-files-headers-title{
+	color: #165dff;
+}
+.bucket-folders-items .bucket-files-item .bucket-files-headers-title:hover{
+	cursor: pointer;
+}
+.bucket-folders-items .bucket-files-item .bucket-files-headers-title i{
+	color: #ffb900;
+}
+.bucket-files-headers-select{
+	width: 15px;
+	height: 15px;
+	border: 1px solid #dde2e9;
+	margin: 13px;
+	background-color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	float: left;
+}
+.bucket-files-headers-select:hover{
+	border: 1px solid #387bff;
+}
+.bucket-files-headers-title{
+	line-height: 42px;
+	/*padding: 0 15px 0 0;*/
+	width: calc(25% - 5px);
+	font-size: 13px;
+	float: left;
+	color: #42464e;
+	user-select: none;
+}
+
+.bucket-files-headers-size{
+	line-height: 42px;
+	/*padding: 0 15px 0 0;*/
+	width: calc(20% - 10px);
+	font-size: 13px;
+	float: left;
+	color: #42464e;
+	user-select: none;
+}
+.bucket-files-headers-type{
+	line-height: 42px;
+	/*padding: 0 15px 0 0;*/
+	width: calc(20% - 10px);
+	font-size: 13px;
+	float: left;
+	color: #42464e;
+	user-select: none;
+}
+.bucket-files-headers-datetime{
+	line-height: 42px;
+	/*padding: 0 15px 0 0;*/
+	width: calc(20% - 10px);
+	font-size: 13px;
+	float: left;
+	color: #42464e;
+	user-select: none;
+}
+.bucket-files-headers-actions{
+	line-height: 42px;
+	/*padding: 0 15px 0 0;*/
+	width: calc(15% - 10px);
+	font-size: 13px;
+	float: left;
+	color: #42464e;
+	user-select: none;
+}
+.bucket-files-path{
+	width: 100%;
+	float: left;
+	font-size: 13px;
+	height: 50px;
+	line-height: 50px;
+	color: #737a87;
+	user-select: none;
+}
+.bucket-files-path span{
+	margin: 0 5px 0 0;
+}
+.bucket-files-path-index{
+	font-weight: bold;
+	color: #42464e;
+	cursor: unset!important;
+}
+.bucket-files-path-copy{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	color: #1759dd;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+	cursor: pointer;
+	user-select: none;
+}
+.bucket-files-span-items{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+}
+.bucket-file-pages{
+	width: 100%;
+	height: 42ox;
+	margin: 10px 0 0 0;
+	float: left;
+}
+.bucket-file-pages .bucket-files-item{
+	font-size: 12px;
+	line-height: 42px;
+}
+.bucket-file-pages .bucket-files-item:hover{
+	background-color: #ffffff;
+}
+.bucket-files-item-selected-count{
+	height: 42px;
+	float: left;
+	padding: 0 5px;
+	user-select: none;
+}
+.bucket-file-pages .copy-to-other-path{
+	width: unset;
+	padding: 0 15px;
+	margin: 4px 5px;
+	line-height: 32px;
+	height: 32px;
+	font-size: 13px;
+	float: left;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
+	border: 1px solid #dde2e9;
+	background-color: #f6f8fa;
+	transition: .25s ease border,.25s ease background-color;
+}
+.copy-to-other-path:hover{
+	border: 1px solid #387bff;
+	background-color: #fff;
+	transition: .25s ease border,.25s ease background-color;
+}
+
+.bucket-file-pages .move-to-other-path{
+	width: unset;
+	padding: 0 15px;
+	margin: 4px 5px;
+	line-height: 32px;
+	height: 32px;
+	font-size: 13px;
+	float: left;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
+	border: 1px solid #dde2e9;
+	background-color: #f6f8fa;
+	transition: .25s ease border,.25s ease background-color;
+}
+.move-to-other-path:hover{
+	border: 1px solid #387bff;
+	background-color: #fff;
+	transition: .25s ease border,.25s ease background-color;
+}
+
+.bucket-file-pages .delete-some-files{
+	width: unset;
+	padding: 0 15px;
+	margin: 4px 5px;
+	line-height: 32px;
+	height: 32px;
+	font-size: 13px;
+	float: left;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .08);
+	border: 1px solid #dde2e9;
+	background-color: #f6f8fa;
+	transition: .25s ease border,.25s ease background-color;
+}
+.delete-some-files:hover{
+	border: 1px solid #387bff;
+	background-color: #fff;
+	transition: .25s ease border,.25s ease background-color;
+}
+.bucket-file-pages-buttons{
+	height: 42px;
+	float: right;
+}
+.bucket-file-pages-buttons .input-button{
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin: 8px 0 0 6px;
+	user-select: none;
+}
+.bucket-file-pages-index{
+	border: 1px solid #1759dd;
+	background-color: #ebf1ff;
+	color: #1664ff;
+}
+.bucket-file-pages-index:hover{
+	border: 1px solid #1759dd;
+	background-color: #ebf1ff;
+	color: #1664ff;
+}
+.bucket-files-span-items span{
+	cursor: pointer;
+}
+.bucket-files-span-items span:hover{
+	color: #1664ff;
+	background-color: #f2f3f8;
+}
+.bucket-files-path-index:hover{
+	background-color: #fff!important;
+	color: #42464e!important;
+}
+.input-button-no-active{
+	background-color: #f6f8fa;
+	border-image-repeat: #dde2e9;
+	color: #c2c7d1;
+	cursor: no-drop;
+}
+.input-button-no-active:hover{
+	border: 1px solid #dde2e9;
+	background-color: #f6f8fa;
+}
+.bucket-files-headers-select i{
+	font-size: 10px;
+	line-height: 17px;
+	text-align: center;
+	position: absolute;
+	margin-top: -1px;
+	padding: 0 0 0 2px;
+	color: #fff;
+}
+.bucket-files-headers-selected-index{
+	border: 1px solid #1664ff;
+	background-color: #1664ff;
+	color: #fff;
+}

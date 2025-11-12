@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>上传文件-括彩云对象存储</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/upload.css" />
+		<link rel="stylesheet" href="plug-in/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="shortcut icon" href="images/favicon.png">
+		<meta name="viewport" content="width=device-width, height=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+	</head>
+	<body>
+
+
+		<div class="upload">
+
+
+			<div class="top-nav">
+
+				<div class="top-nav-more"><i class="fa fa-navicon"></i></div>
+				
+				<div class="top-nav-logo"></div>
+
+				<div class="top-nav-dash"><i class="fa fa-home"></i> 总览</div>
+
+				<div class="user-profile">K</div>
+
+
+			</div>
+
+
+
+			<div class="top-page-title-parent">
+
+				<div class="top-page-title-main">
+
+					<div class="top-page-title-main-icon-button"><i class="fa fa-angle-left"></i></div>
+					<div class="h3-title">上传文件</div>
+				
+				</div>
+				
+			</div>
+
+
+
+
+			<div class="upload-parent">
+
+				<div class="upload-main">
+
+					<div class="upload-information">
+					
+
+						<div class="block-height-20px"></div>
+
+						<div class="block-height-20px"></div>
+
+						<div class="create-bucket-main-input upload-files-acl-options">
+						
+							<!--<span class="red-star-span">*</span>-->
+
+							<span>上传到</span>
+
+							<div class="select-option-items">
+								
+								<div class="select-option-item acl-private">私有</div>
+								<div class="select-option-item acl-public-read select-option-item-selected-index">公共读</div>
+								<div class="select-option-item acl-public-read-write">公共读写</div>
+								<div class="select-option-item acl-authenticated-read">验证读</div>
+								
+							</div>
+
+						</div>
+
+						<div class="block-height-20px"></div>
+
+						<div class="create-bucket-main-input">
+						
+							<!--<span class="red-star-span">*</span>-->
+
+							<span>上传到</span>
+
+							<div class="select-option-items">
+								
+								<div class="select-option-item upload-folder-path-root">根目录</div>
+								<!--<div class="select-option-item upload-folder-path-test">测试目录</div>-->
+								<div class="select-option-item select-option-item-selected-index upload-folder-path-current">当前目录</div>
+								<div class="select-option-item upload-folder-path-custom">指定目录</div>
+								
+							</div>
+
+						</div>
+
+
+						<div class="create-bucket-main-input upload-folder-path-current-input">
+						
+							<!--<span class="red-star-span">*</span>
+
+							<span>名称</span>-->
+
+							<input type="text" placeholder="/" />
+
+						</div>
+
+
+
+						<div class="block-height-20px"></div>
+
+
+						<div class="create-bucket-main-input upload-options">
+						
+							<!--<span class="red-star-span">*</span>-->
+
+							<span>待上传</span>
+
+							<div class="select-option-items">
+								
+								<div class="input-button-blue upload-files"><i class="fa fa-file"></i> 选择文件</div>
+
+								<div class="input-button-blue upload-folder"><i class="fa fa-folder"></i> 选择文件夹</div>
+
+								<div class="input-button-grey clear-upload-files-items"><i class="fa fa-trash"></i> 清空列表</div>
+
+							</div>
+
+						</div>
+
+
+						<div class="create-bucket-main-input">
+
+							<div style="display: none;">
+								<input type="file" class="input-for-files-and-folder" webkitdirectory multiple />
+
+								<input type="file" class="input-just-for-files" multiple />
+
+							</div>
+						
+							<!--<span class="red-star-span">*</span>
+
+							<span>名称</span>-->
+
+							<div class="files-to-browser-upload-list">
+
+								<div class="files-to-browser-upload-list-mask"></div>
+								
+								<i class="fa fa-upload"></i>
+
+								<div class="h2-title">拖拽文件到此处上传</div>
+
+								<div class="h3-title">支持上传多个文件，最大文件限制在5GiB内。文件夹请点击上方“选择文件夹”。</div>
+
+							</div>
+
+						</div>
+
+
+
+						<div class="create-bucket-main-input">
+						
+							<!--<span class="red-star-span">*</span>
+
+							<span>名称</span>-->
+
+							<div class="files-to-browser-upload-list-files">
+								
+								<div class="files-to-browser-upload-list-files-headers">
+								
+									<div class="files-to-browser-upload-list-files-headers-title">
+									
+										文件名称
+
+									</div>
+
+									<div class="files-to-browser-upload-list-files-headers-upload-status">
+									
+										状态
+
+									</div>
+
+									<div class="files-to-browser-upload-list-files-headers-size">
+									
+										大小
+
+									</div>
+
+									<div class="files-to-browser-upload-list-files-headers-actions">
+									
+										操作
+
+									</div>
+
+								</div>
+
+								<div class="files-to-browser-upload-list-files-items">
+
+
+
+									<!--
+									<div class="files-to-browser-upload-list-files-item">
+										<div class="files-to-browser-upload-list-files-headers-title">
+										
+											新建文件夹/蔡徐坤打篮球.mp4
+
+										</div>
+
+										<div class="files-to-browser-upload-list-files-headers-size">
+										
+											58.63MB
+
+										</div>
+
+										<div class="files-to-browser-upload-list-files-headers-actions">
+										
+											<span class="files-to-browser-upload-list-files-headers-actions-remove">移除</span>
+
+										</div>
+									</div>
+									-->
+
+									
+									<div class="files-to-browser-upload-list-files-null" style="display: none;">
+									
+										<i class="fa fa-hdd-o"></i>
+										<div class="h3-title">暂无文件</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+
+
+
+
+
+
+						<div class="block-height-20px"></div>
+
+						<div class="block-height-20px"></div>
+
+
+					</div>
+
+
+					<div class="block-height-20px"></div>
+
+					<div class="block-height-20px"></div>
+
+					<div class="block-height-20px"></div>
+
+					<div class="block-height-20px"></div>
+
+
+				</div>
+				
+			</div>
+
+
+
+
+
+
+
+
+			<div class="bottom-buttons-parent">
+
+				<div class="bottom-buttons-main">
+
+					<div class="input-button-blue upload-files-to-bucket"><i class="fa fa-check"></i> 上传</div>
+
+					<div class="input-button-grey cancel-upload-back-bucket"><i class="fa fa-remove"></i> 取消</div>
+				
+				</div>
+				
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+		<!-- 全局变量 、 提示框插件 必须放在最前面 -->
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="plug-in/sweetalert/sweetalert.min.js"></script>
+
+		<!-- 最后放本页面的JS -->
+		<script type="text/javascript" src="js/upload.js"></script>
+
+	</body>
+</html>
